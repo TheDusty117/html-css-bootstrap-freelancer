@@ -12,7 +12,26 @@ img{
   --light-teal:#3A546D;
 }
 
+.emerald-1,
+.emerald-2{
+  background-color: var(--emerald);
+  min-height: 150px;
+}
 
+.white-1,
+.white-2{
+  background-color: wheat;
+  min-height: 150px;
+}
+
+.debug {
+  border: 2px solid salmon;
+}
+
+div[class^="col-"] {
+  border: 2px solid salmon;
+  min-height: 50px;
+}
 
 header{
   background-color: var(--teal);
