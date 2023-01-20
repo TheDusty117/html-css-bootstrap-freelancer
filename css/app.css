@@ -12,6 +12,10 @@ img{
   --light-teal:#3A546D;
 }
 
-.header{
-  background-color: ;
+
+
+header{
+  background-color: var(--teal);
+  color: white;
 }
+
