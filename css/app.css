@@ -17,6 +17,7 @@ img{
   background-color: var(--emerald);
   min-height: 150px;
   padding: 60px 0px;
+  color: white;
 }
 
 .white-1,
@@ -24,6 +25,22 @@ img{
   background-color: wheat;
   min-height: 150px;
   padding: 60px 0px;
+  color: black;
+}
+
+.light-teal-1,
+.light-teal-2{
+  background-color: var(--light-teal);
+  min-height: 150px;
+  padding: 40px 0px;
+  color: white;
+}
+
+.teal{
+  background-color: var(--teal);
+  min-height: 65px;
+  padding: 20px 0px;
+  color: white;
 }
 
 .debug {
