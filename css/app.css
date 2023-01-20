@@ -1,0 +1,17 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+:root{
+  --teal:#2C3E50;
+  --emerald:#1ABC9C;
+  --light-teal:#3A546D;
+}
+
+.header{
+  background-color: ;
+}
