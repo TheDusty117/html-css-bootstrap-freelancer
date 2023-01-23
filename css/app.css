@@ -6,6 +6,11 @@ img{
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
 :root{
   --teal:#2C3E50;
   --emerald:#1ABC9C;
@@ -43,13 +48,11 @@ img{
   color: white;
 }
 
-.debug {
-  border: 2px solid salmon;
-}
 
 div[class^="col-"] {
   border: 2px solid salmon;
   min-height: 50px;
+  padding: 15px;
 }
 
 header{
@@ -59,4 +62,17 @@ header{
 
 .avatar{
   height: 250px;
+}
+
+.line{
+  border-bottom: 2px solid black;
+  padding: 1px 20px;
+}
+
+
+/* EMERALD 1 CUSTOM STYLE */
+
+.emerald-1-title{
+  text-transform: uppercase;
+  font-size: 50px;
 }
