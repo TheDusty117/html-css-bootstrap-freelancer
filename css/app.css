@@ -48,6 +48,15 @@ a {
   color: white;
 }
 
+ul,
+li{
+  list-style: none;
+}
+
+ul{
+  padding-left: 0;
+}
+
 
 div[class^="col-"] {
   /* border: 2px solid salmon; */
@@ -81,6 +90,7 @@ header{
   font-size: 40px;
 }
 
+
 /* EMERALD 1 CUSTOM STYLE */
 
 .emerald-1-title{
@@ -109,4 +119,56 @@ header{
 
 .about-description{
   font-size: 18px;
+}
+
+
+/* WHITE 2 CUSTOM STYLE */
+
+.form{
+  width: 100%;
+  border: 0px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 10px;
+}
+
+.margin-zero{
+  margin-top: -15px;
+}
+
+.form-message {
+  display: block;
+  width: 100%;
+  padding: 0rem 0.75rem 6.375rem 0rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  background-color: var(--bs-form-control-bg);
+  background-clip: padding-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border: 0px;
+  border-bottom: 2px solid grey;
+}
+
+.btn_acqua{
+  background-color: var(--emerald);
+  border-color: var(--emerald);
+}
+
+.btn-item-acqua{
+  text-align: start;
+  padding-top: 20px;
+}
+
+
+/* TEAL FOOTER SECTION */
+
+.fa-brands{
+  font-size: 25px;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 999px;
 }
