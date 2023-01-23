@@ -27,7 +27,7 @@ a {
 
 .white-1,
 .white-2{
-  background-color: wheat;
+  background-color: white;
   min-height: 150px;
   padding: 60px 0px;
   color: black;
@@ -37,14 +37,14 @@ a {
 .light-teal-2{
   background-color: var(--light-teal);
   min-height: 150px;
-  padding: 40px 0px;
+  padding: 60px 0px;
   color: white;
 }
 
 .teal{
   background-color: var(--teal);
   min-height: 65px;
-  padding: 20px 0px;
+  padding: 40px 0px;
   color: white;
 }
 
@@ -106,6 +106,18 @@ header{
   text-transform: uppercase;
 }
 
+/* NAVBAR */
+
+.navbar-brand{
+  font-weight: 500;
+}
+
+.nav-link{
+  color: white;
+  font-weight: 500;
+
+}
+
 
 /* WHITE 1 CUSTOM STYLE */
 
@@ -165,6 +177,10 @@ header{
 
 
 /* TEAL FOOTER SECTION */
+
+.highlighted{
+  color: var(--emerald);
+}
 
 .fa-brands{
   font-size: 18px;
