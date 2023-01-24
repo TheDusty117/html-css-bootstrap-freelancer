@@ -138,6 +138,7 @@ header{
   font-size: 18px;
 }
 
+/* <!-- ESEMPIO DI DIVISIONE TESTO IN DOPPIA COLONNA SENZA USARE FLEX --> */
 .paragrafo-diviso-2{
   column-count: 2;
   column-gap: 40px;
