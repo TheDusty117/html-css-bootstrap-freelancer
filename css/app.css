@@ -73,6 +73,7 @@ header{
   height: 250px;
 }
 
+
 .line{
   border-bottom: 3px solid white;
   width: 100%;
@@ -135,6 +136,11 @@ header{
 
 .about-description{
   font-size: 18px;
+}
+
+.paragrafo-diviso-2{
+  column-count: 2;
+  column-gap: 40px;
 }
 
 
