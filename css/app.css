@@ -118,6 +118,10 @@ header{
 
 }
 
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
 
 /* WHITE 1 CUSTOM STYLE */
 
